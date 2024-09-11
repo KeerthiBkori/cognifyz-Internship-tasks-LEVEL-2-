@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Card Component with UIKit</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/css/uikit.min.css">
+    <style>
+        .uk-container {
+            display: flex;
+            justify-content: center;
+        }
+        .uk-grid {
+            flex-wrap: nowrap;
+        }
+        .uk-grid > * {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="uk-container">
+        <div class="uk-grid uk-grid-match" uk-grid>
+            <div class="uk-width-1-3@m">
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img src="image1.png" alt="Image">
+                    </div>
+                    <div class="uk-card-body">
+                        <h2 class="uk-card-title">GOOGLE</h2>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-1-3@m">
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img src="image2.png" alt="Image">
+                    </div>
+                    <div class="uk-card-body">
+                        <h2 class="uk-card-title">YOUTUBE</h2>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-1-3@m">
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img src="image3.jpeg" alt="Image">
+                    </div>
+                    <div class="uk-card-body">
+                        <h2 class="uk-card-title">LinkedIn</h2>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
